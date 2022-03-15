@@ -1,0 +1,37 @@
+.contactcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2em;
+}
+
+.contactcontainer svg {
+  font-size: 3em;
+  transition: all 0.5s ease-in-out 0s;
+  color: var(--clr-primary);
+}
+.contactcontainer svg:hover {
+  font-size: 4rem;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.github:hover {
+  color: black;
+}
+.email:hover {
+  color: #d93025;
+}
+.twitter:hover {
+  color: rgb(29, 155, 240);
+}
+.phone:hover {
+  color: rgb(49, 236, 49);
+}
+@media (max-width: 600px) {
+  .contactcontainer svg {
+    font-size: 2em;
+  }
+  .contactcontainer svg:hover {
+    font-size: 3rem;
+  }
+}
