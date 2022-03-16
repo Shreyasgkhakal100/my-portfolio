@@ -48,7 +48,7 @@
   margin-right: 0.5em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1022px) {
   .introduction {
     flex-direction: column;
     margin-top: 2em;
@@ -60,7 +60,9 @@
   .introduction_logocontainer > img {
     width: 60%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 20px;  
+    border-radius: 50%;
+    border: 2px solid var(--clr-primary);
   }
   .introduction_datacontainer {
     padding-left: 10%;
