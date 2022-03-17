@@ -40,10 +40,14 @@
   margin-top: 10px;
 }
 .btnResume:hover{
-  background-color: #90a0d954;
+  background-color: var(--clr-primary);
+  color: var(--clr-bg);
 }
 
 @media (max-width: 600px) {
+  .mobileHead{
+    align-content: center;
+  }
   .app .about {
     align-items: flex-start;
     margin-top: 2em;

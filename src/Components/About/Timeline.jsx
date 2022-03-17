@@ -35,12 +35,16 @@ export const Timeline = () => {
             date={"Dec 2021 - Feb 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -67,12 +71,16 @@ export const Timeline = () => {
             date={"Nov 2021 - Dec 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -101,12 +109,16 @@ export const Timeline = () => {
             date={"Oct 2021 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -134,12 +146,16 @@ export const Timeline = () => {
             date={"Feb 2020 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -168,12 +184,16 @@ export const Timeline = () => {
             date={"Dec 2019 - Aug 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -201,12 +221,16 @@ export const Timeline = () => {
             date={"Jul 2017 - Aug 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -226,7 +250,8 @@ export const Timeline = () => {
             </h4>
             <p data-aos="fade-right">
               Studied Agricultural Engineering which consists of all the
-              subjects accross all engineering and agricultural streams. Passed with 8.32 CGPA
+              subjects accross all engineering and agricultural streams. Passed
+              with 8.32 CGPA
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -234,12 +259,16 @@ export const Timeline = () => {
             date={"March 2017"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
               color: `var(--clr-fg-alt)`,
             }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -265,6 +294,7 @@ export const Timeline = () => {
           <VerticalTimelineElement
             icon={<StarRateIcon />}
             iconStyle={{
+              border:` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}

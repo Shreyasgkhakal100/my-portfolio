@@ -1,6 +1,4 @@
 import React from "react";
-import Githubcalendar from "react-github-calendar";
-import { ThemeContext } from "../../Context/theme";
 
 export const Github = () => {
   const colourTheme = {
@@ -12,21 +10,21 @@ export const Github = () => {
     grade1: "#c084f5",
     grade0: "#ecd9fc"
   };
-  const [{ themename }] = React.useContext(ThemeContext);
+  // const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <>
-      <div className={"section " + themename} data-aos="fade-right">
-        <h2 className="section__title different">
+      <div className={"section " + colourTheme} data-aos="fade-right">
+        {/* <h2 className="section__title different">
           Days I <span className="different"> Code</span>
-        </h2>
-        <Githubcalendar
+        </h2> */}
+        {/* <Githubcalendar
           username="imbickydutta"
           blockSize={15}
           blockMargin={5}
-          theme={themename}
+          theme={colourTheme}
           fontSize={16}
-        />
+        /> */}
       </div>
     </>
   );
