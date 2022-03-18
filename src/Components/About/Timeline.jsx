@@ -2,7 +2,7 @@ import React from "react";
 import "./Timeline.css";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
@@ -44,7 +44,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -80,7 +80,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -118,7 +118,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -155,7 +155,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -193,7 +193,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -230,7 +230,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -268,7 +268,7 @@ export const Timeline = () => {
               borderRight: "16px solid  var(--clr-primary)",
             }}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
@@ -294,7 +294,7 @@ export const Timeline = () => {
           <VerticalTimelineElement
             icon={<StarRateIcon />}
             iconStyle={{
-              border:` 3px solid var(--clr-primary)`,
+              border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}

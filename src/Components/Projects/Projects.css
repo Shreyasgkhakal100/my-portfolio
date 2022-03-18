@@ -1,6 +1,7 @@
 .projects_container {
   width: 80%;
   margin: 0 auto;
+  background-color: transparent;
 }
 
 .project {
@@ -12,10 +13,11 @@
   border-radius: 20px;
   transition: all 0.5s ease 0s;
 }
+
 .project:hover {
   transform: scale(1.04);
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .project_videocontainer {
@@ -110,6 +112,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .project {
+    border: 2px solid var(--clr-primary);
     flex-direction: column;
   }
 

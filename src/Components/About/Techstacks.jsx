@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
@@ -11,9 +11,9 @@ import {
   SiNetlify
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript, SiHeroku } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
+import { BsBootstrap, BsWordpress } from "react-icons/bs";
 
 export const Techstacks = () => {
   return (
@@ -52,20 +52,20 @@ export const Techstacks = () => {
           </div>
 
           <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
+            <FaAws />
+            <h5>AWS</h5>
           </div>
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
           <div>
-            <SiTailwindcss />
-            <h5>Tailwind CSS</h5>
+            <BsWordpress />
+            <h5>Wordpress</h5>
           </div>
           <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
+            <SiHeroku />
+            <h5>Heroku</h5>
           </div>
           <div>
             <VscGithub />

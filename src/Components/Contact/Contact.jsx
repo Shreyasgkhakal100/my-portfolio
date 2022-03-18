@@ -15,38 +15,51 @@ export const Contact = () => {
         <h2 className="section__title" data-aos="fade-right">
           Get in <span className="different">Touch</span>
         </h2>
-        <div className={"contactcontainer " + themename} data-aos="fade-right">
-          <a
-            href="https://www.linkedin.com/in/bicky-dutta-8a851a19b/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin className="linkedin" />
-          </a>
-          <a
-            href="https://github.com/imbickydutta"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <VscGithub className="github" />
-          </a>
-          <a
-            href="mailto:bicky.dutta@masaischool.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <CgMail className="email" />
-          </a>
-          <a
-            href="https://instagram.com/imbickydutta"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsInstagram className="twitter" />
-          </a>
-          <a href="tel:+917001347896" target="_blank" rel="noreferrer">
-            <BsFillTelephoneFill className="phone" />
-          </a>
+        <div className="contactMain">
+          <div className="mailNumber" data-aos="fade-right">
+            <div>
+              <span>
+                <CgMail className="email" />
+              </span>
+              <span>
+                <p>shreyasgkhakal100@gmail.com</p>
+              </span>
+            </div>
+            <div>
+              <span>
+                <BsFillTelephoneFill className="phone" />
+              </span>
+              <span>
+                <p>+91 8668613593</p>
+              </span>
+            </div>
+          </div>
+          <div className={"contactcontainer " + themename} data-aos="fade-right">
+            <a
+              href="https://www.linkedin.com/in/shreyas-g-khakal/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="linkedin" />
+            </a>
+            <a
+              href="https://github.com/Shreyasgkhakal100/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <VscGithub className="github" />
+            </a>
+            <a
+              href="mailto:shreyasgkhakal100@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <CgMail className="email" />
+            </a>
+            <a href="tel:+918668613593" target="_blank" rel="noreferrer">
+              <BsFillTelephoneFill className="phone" />
+            </a>
+          </div>
         </div>
       </div>
     </>

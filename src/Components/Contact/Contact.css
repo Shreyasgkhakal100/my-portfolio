@@ -2,12 +2,34 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 2em;
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+  margin: 10px;
+  
 }
 
 .contactcontainer svg {
   font-size: 3em;
   transition: all 0.5s ease-in-out 0s;
   color: var(--clr-primary);
+  border: 3px solid var(--clr-primary);
+  padding: 5px;
+  border-radius: 20%;
+}
+.mailNumber svg {
+  font-size: 2em;
+  transition: all 0.5s ease-in-out 0s;
+  color: var(--clr-primary);
+}
+.mailNumber > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.mailNumber p{
+  margin: 5px;
 }
 .contactcontainer svg:hover {
   font-size: 4rem;
@@ -25,11 +47,27 @@
   color: rgb(29, 155, 240);
 }
 .phone:hover {
-  color: rgb(49, 236, 49);
+  color: rgb(0, 0, 0);
+}
+
+.mailNumber{
+  border: 3px solid var(--clr-primary);
+  border-radius: 20px;
+  background-color: transparent;
+  margin: 20px;
+  padding: 10px;
+}
+.contactMain{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 @media (max-width: 600px) {
   .contactcontainer svg {
     font-size: 2em;
+  }
+  .contactMain{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   .contactcontainer svg:hover {
     font-size: 3rem;

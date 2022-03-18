@@ -13,7 +13,7 @@ import {
   SiReactrouter,
   SiJavascript,
   SiMongodb,
-  SiNodedotjs
+  SiNodedotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -22,38 +22,32 @@ export const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different" data-aos="fade-right">
-          Projects
-        </h2>
+        <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-          <div className="projects_container">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div data-aos="fade-right">
                   <img
-                    src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-                    alt="Mail Chimp"
+                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
+                    alt="PulsePlus-Clone"
                   />
                 </div>
               </div>
               <div className="project_information" data-aos="fade-right">
-                <h2>Mail Chimp Replica</h2>
+                <h2>PulsePlus Clone</h2>
                 <p>
-                  Clone of the popular email campaigning app Mail Chimp. Built
-                  on react for front end and nodeJS on backend. It's a team
-                  project completed executed in 5 days.
+                  PulsePlus is an E-commerce web application for online Buying
+                  Medicines and Consult to Doctor and Book a near Testlab.
                 </p>
                 <div>
-                  <FaReact />
+                  <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://mail-chimp-clone.vercel.app/"
+                    href="https://pulseplus-clone.netlify.app/landing_page.html"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -62,7 +56,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/harshchaturvedi1/mailChimp-clone"
+                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,34 +68,31 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div data-aos="fade-right">
+                <div>
                   <img
-                    src="https://i.ibb.co/6vdbyj2/Screenshot-405.png"
-                    alt="Myntra"
+                    src="https://i.ibb.co/MPzWN49/weather-app.png"
+                    alt="Sk-Weather-App"
                   />
                 </div>
               </div>
-              <div className="project_information" data-aos="fade-right">
-                <h2>Myntra Clone</h2>
+              <div className="project_information">
+                <h2>SK Weather App</h2>
                 <p>
-                  First Backend Project with NodeJS, ExpressJS and MongoDB. Used
-                  EJS to render views. Main functionalities were :
-                  Register/Login using JWT, Sorting and Filtering in the
-                  backend, Cart and Wish List and many more.
+                  Location based weather app. User can also search for their
+                  cities and pickup location from map to see weather data of
+                  respective places.
                 </p>
                 <div>
+                  <DiCss3 />
+                  <SiHtml5 />
                   <IoLogoJavascript />
-                  <FaReact />
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://newmyntra.herokuapp.com/home"
+                    href="https://sk-weather-app.netlify.app/weather-app.html"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -110,7 +101,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/myntra"
+                    href="https://github.com/Shreyasgkhakal100/Weather-App"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -122,22 +113,22 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div data-aos="fade-right">
+                <div>
                   <img
-                    src="https://news-cdn.softpedia.com/images/news2/Dropbox-2-9-Enters-Development-with-Streaming-Sync-Feature-442773-2.jpg"
+                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
                     alt=""
                   />
                 </div>
               </div>
-              <div className="project_information" data-aos="fade-right">
-                <h2>Backend API for Drive / DropBox Clone </h2>
+              <div className="project_information">
+                <h2>DropBox Clone -Backend</h2>
                 <p>
                   Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. A
-                  solo project. CRUD operations for users, files and folders.
+                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
+                  operations for users, files and folders.
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -146,7 +137,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/"
+                    href="https://drive-system.herokuapp.com/user/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -167,31 +158,33 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div data-aos="fade-right">
+                <div>
                   <img
-                    src="https://i.ibb.co/1bsxCjF/Screenshot-349.png"
-                    alt="TicTacToe"
+                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
+                    alt="Uniqlo-Clone"
                   />
                 </div>
               </div>
-              <div className="project_information" data-aos="fade-right">
-                <h2>Classic TicTacToe</h2>
+              <div className="project_information">
+                <h2>Uniqlo Clone</h2>
                 <p>
-                  Mini project of A classic TicTacToe game built using ReactJS.
-                  Features : Button for Resetting The Game, History of all the
-                  moves played (undo a move), etc.
+                  UNIQLO is a clothing apparel company, from Japan. They also
+                  sell their products in online mode through their website. We
+                  cloned their website.
                 </p>
                 <div>
-                  <FaReact />
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
                   <SiHtml5 />
                   <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://tictactoe-bicky.netlify.app/"
+                    href="https://uniqlo-clone.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -200,53 +193,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/tictactoe/tree/master"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div data-aos="fade-right">
-                  <img
-                    src="https://i.ibb.co/PMny3hW/Screenshot-406.png"
-                    alt="TicTacToe"
-                  />
-                </div>
-              </div>
-              <div className="project_information" data-aos="fade-right">
-                <h2>Star Wars Search</h2>
-                <p>
-                  Vanilla JS web app to Search for any Star Wars Character.
-                  Build with the help of Star Wars API and has the Classic UI
-                  (Color theme) of the original Star Wars Movie. Built to learn
-                  APIs and use them in the project.
-                </p>
-                <div>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://searchstarwars.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/imbickydutta/starWarsCharacterSearch"
+                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
                     target="_blank"
                     rel="noreferrer"
                   >

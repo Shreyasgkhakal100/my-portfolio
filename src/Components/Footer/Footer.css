@@ -1,5 +1,22 @@
 .footer {
   text-align: center;
   color: var(--clr-primary);
-  padding-bottom: 2em;
+}
+
+.footerBox{
+  border: 3px solid var(--clr-primary);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 20px;
+  height: auto;
+}
+
+.footerBox:hover {
+  transform: scale(1.04);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
