@@ -25,7 +25,7 @@ export const Contact = () => {
                 <p>shreyasgkhakal100@gmail.com</p>
               </span>
             </div>
-            <div>
+            <div className="iconsCont">
               <span>
                 <BsFillTelephoneFill className="phone" />
               </span>

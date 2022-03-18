@@ -58,6 +58,7 @@
   padding: 10px;
 }
 .contactMain{
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -65,9 +66,17 @@
   .contactcontainer svg {
     font-size: 2em;
   }
+  .mailNumber{
+    width: 100%
+  }
   .contactMain{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .iconsCont{
+    width: 90%
   }
   .contactcontainer svg:hover {
     font-size: 3rem;
