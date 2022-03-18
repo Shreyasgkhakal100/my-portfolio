@@ -9,11 +9,11 @@ export const Footer = () => {
     <>
       <div className={"section " + themename}>
         <a href="/" rel="noreferrer" target="_blank">
-          <div className="footerBox">
+          <div className="footerBox" data-aos="fade-right">
             <h3 className="footer">
               Made with{" "}
               <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
-              By Shreyas Khakal
+              By Shreyas
             </h3>
           </div>
         </a>
