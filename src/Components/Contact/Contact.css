@@ -57,10 +57,18 @@
   margin: 20px;
   padding: 10px;
 }
+.mailNumber:hover {
+  font-size: 1.1rem;
+  transform: scale(1.04);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 .contactMain{
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  margin: auto;
 }
 @media (max-width: 600px) {
   .contactcontainer svg {
