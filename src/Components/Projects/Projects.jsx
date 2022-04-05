@@ -120,35 +120,33 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
+                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>PulsePlus Clone</h2>
+                <h2>APIJS Mongo</h2>
                 <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
+                  APIJS Mongo is the open source liabrary which helps you to
+                  create backend API's in Node.js just by using simple methods
+                  like connectToMongoDB() & createUserAPI().
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
+                    href="https://www.npmjs.com/package/apijs-mongo"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      See this Live
+                      View NPM Package
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
+                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -160,6 +158,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -241,6 +240,50 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
+                    alt="PulsePlus-Clone"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>PulsePlus Clone</h2>
+                <p>
+                  PulsePlus is an E-commerce web application for online Buying
+                  Medicines and Consult to Doctor and Book a near Testlab.
+                </p>
+                <div>
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
+                </div>
+                <div>
+                  <a
+                    href="https://pulseplus-clone.netlify.app/landing_page.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
                     target="_blank"
                     rel="noreferrer"
                   >
