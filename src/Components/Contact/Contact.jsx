@@ -16,25 +16,10 @@ export const Contact = () => {
           Get in <span className="different">Touch</span>
         </h2>
         <div className="contactMain">
-          <div className="mailNumber" data-aos="fade-right">
-            <div>
-              <span>
-                <CgMail className="email" />
-              </span>
-              <span>
-                <p>shreyasgkhakal100@gmail.com</p>
-              </span>
-            </div>
-            <div className="iconsCont">
-              <span>
-                <BsFillTelephoneFill className="phone" />
-              </span>
-              <span>
-                <p>+91 8668613593</p>
-              </span>
-            </div>
-          </div>
-          <div className={"contactcontainer " + themename} data-aos="fade-right">
+          <div
+            className={"contactcontainer " + themename}
+            data-aos="fade-right"
+          >
             <a
               href="https://www.linkedin.com/in/shreyas-g-khakal/"
               target="_blank"
@@ -59,6 +44,24 @@ export const Contact = () => {
             <a href="tel:+918668613593" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
+          </div>
+          <div className="mailNumber" data-aos="fade-right">
+            <div>
+              <span>
+                <CgMail className="email" />
+              </span>
+              <span>
+                <p>shreyasgkhakal100@gmail.com</p>
+              </span>
+            </div>
+            <div className="iconsCont">
+              <span>
+                <BsFillTelephoneFill className="phone" />
+              </span>
+              <span>
+                <p>+91 8668613593</p>
+              </span>
+            </div>
           </div>
         </div>
       </div>
