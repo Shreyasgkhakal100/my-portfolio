@@ -49,3 +49,8 @@ a {
 button {
   cursor: pointer;
 }
+
+body{
+  background-color: var(--clr-bg);
+  color: var(--clr-fg);
+}
