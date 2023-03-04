@@ -13,6 +13,16 @@
   padding: 20px;
   height: auto;
 }
+.copyright{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+}
 
 /* .footerBox:hover {
   transform: scale(1.04);

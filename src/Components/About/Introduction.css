@@ -10,16 +10,19 @@
 }
 
 .introduction_logocontainer {
-  flex-basis: 45%;
+  flex-basis: 40%;
   display: flex;
   justify-content: center;
 }
 
 .introduction_logocontainer > img {
-  width: 55%;
-  height: 85%;
+  /* width: 65%;
+  height: 70%; */
+  width:70%;
+  height:85%;
   border-radius: 50%;
   border: 2px solid var(--clr-primary);
+  background-color:yellow;
 }
 
 .introduction_datacontainer {
@@ -55,14 +58,15 @@
   }
   .introduction_logocontainer {
     margin-bottom: 3em;
-    flex-basis: 30%;
+    flex-basis: 20%;
   }
   .introduction_logocontainer > img {
-    width: 60%;
-    height: 100%;
-    border-radius: 20px;  
-    border-radius: 50%;
-    border: 2px solid var(--clr-primary);
+    width: 45%;
+    height: 85%;
+    border-radius: 80%;  
+    border-radius: 45px;
+    border: 3px solid  var(--clr-primary);
+    background-color:yellow;
   }
   .introduction_datacontainer {
     padding-left: 10%;

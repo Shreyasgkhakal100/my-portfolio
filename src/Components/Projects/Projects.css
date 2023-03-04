@@ -100,7 +100,7 @@
   background-color: var(--clr-primary);
 }
 .project_information > h3 {
-  margin-top: 1.6em;
+  margin-top: 1.5em;
   color: var(--clr-primary);
 }
 .project_information::-webkit-scrollbar {

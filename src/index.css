@@ -48,6 +48,7 @@ a {
 
 button {
   cursor: pointer;
+  scroll-behavior: smooth;
 }
 
 body{

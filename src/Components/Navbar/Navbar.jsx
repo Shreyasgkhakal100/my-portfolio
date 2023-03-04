@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
-import Brightness2Icon from "@material-ui/icons/Brightness2";
+import Brightness3Icon from "@material-ui/icons/Brightness3";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
@@ -88,7 +88,7 @@ export const Navbar = () => {
           aria-label="toggle theme"
           style={{ backgroundColor: "inherit" }}
         >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness3Icon />}
         </button>
         <button
           type="button"

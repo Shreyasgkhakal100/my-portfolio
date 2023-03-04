@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/Photo_logo.png";
 
 
 export const Introduction = () => {
@@ -22,32 +22,31 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                <span className="different">Aman Maddheshiya </span> and I am from{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  Gida, Gorakhpur (India)
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
+                . Currently persuing my B.tech 3rd year (Gorakhpur. Engineering)
                 from{" "}
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                  KIPM-COLLEGE OF ENGINEERING AND TECHNOLOGY (KIET)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                .A self-taught programmer.Works in and{" "}
+                <span className="different">Masai School</span> designing,entrepreneurship and an open-source contributor.
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Terms That describes me apart form Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneure{" "}
+                Developer{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Chess Enthusiast{" "}
+                Designer{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
@@ -59,7 +58,7 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Poet{" "}
+                Blogger{" "}
               </h4>
             </div>
           </div>

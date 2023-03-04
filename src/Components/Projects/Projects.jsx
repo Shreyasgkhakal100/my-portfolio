@@ -16,8 +16,9 @@ import {
   SiNodedotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import img from '../../assets/img/1.png';
+import Dalle from '../../assets/img/Dalle.jpeg'
 export const Projects = () => {
   return (
     <>
@@ -29,17 +30,15 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/V9C8Jm9/rockstar-games.png"
-                    alt="Rockstar Games"
+                    src={img}
+                    alt=''
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Rockstar Games</h2>
+                <h2>Animeverse</h2>
                 <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                 A conceptual design based on the combination of Anime and Metaverse.The most trendiest topic ongoing.Its a concept to show the visuals,effects and world of Animeverse.
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -50,7 +49,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://store-rockstargames.vercel.app/"
+                    href="https://animeverse-eight.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +58,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/aman-638/store.rockstartgames.com-Frontend-Clone"
+                    href="https://github.com/inbuilt-aura/Animeverse"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -76,17 +75,15 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
+                    src={Dalle}
+                    alt="Image Generation App"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>Dalle-2 Clone</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                An improved and more user-friendly image generation site which generates images from text and you can even share with the community.A very simple MERN site which is fully responsive.
                 </p>
                 <div>
                   <DiCss3 />
@@ -95,7 +92,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://dalle-2-virid.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -104,7 +101,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/inbuilt-aura/Image-generator"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -170,11 +167,9 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>Portfolio-vite</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                  A simple operational portfolio-site using vite
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -188,11 +183,11 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                      See it Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href=""
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -13,8 +13,11 @@ export const Footer = () => {
             <h3 className="footer">
               Made with{" "}
               <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
-              By Shreyas
+              By Aman
             </h3>
+          </div>
+          <div className="copyright">
+            <span>Copyright @2023.All Rights Reserved.            </span>
           </div>
         </a>
       </div>

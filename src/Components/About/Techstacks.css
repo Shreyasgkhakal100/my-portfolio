@@ -10,8 +10,8 @@
 }
 
 .techsection > div {
-  width: 11%;
-  height: 16vh;
+  width: 15%;
+  height: 18vh;
   max-height: 140px;
   box-shadow: var(--shadow);
   z-index: 1;

@@ -6,29 +6,27 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import DescriptionIcon from "@material-ui/icons/Description";
+// import DescriptionIcon from "@material-ui/icons/Description";
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
-import { Techstacks } from "./Techstacks";
+import { Techstacks} from "./Techstacks";
 // import Button from "@mui/material/Button";
 export const About = () => {
   return (
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Shreyas Khakal</span>
+          Hey, I am <span className="about__name">Aman Maddheshiya</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
+          Passionate and creative Frontend Developer who is upgrading himself into a Full Stack Developer from past 3 months. Worked with few startups and on projects to increase my productivity & efficiency further.In past 6 months,successfully delivered 8+ projects including major and minor.
           15+ projects till now.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Shreyasgkhakal100"
+            href="https://github.com/inbuilt-aura"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +35,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="mailto:developeramanyt@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -46,7 +44,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+918668613593"
+            href="tel:+91-9792118754"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -55,16 +53,16 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/aman-maddheshiya-b437581b1/"
             aria-label="linkedin"
             className="link link--icon"
-            target="_blank"
+            target="_blank"s
             rel="noreferrer"
           >
             <LinkedInIcon />
           </a>
           <a
-            href="https://twitter.com/KhakalShreyas"
+            href="https://twitter.com/aman_aura"
             aria-label="twitter"
             className="link link--icon"
             target="_blank"
