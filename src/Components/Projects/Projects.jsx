@@ -17,7 +17,9 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import img from '../../assets/img/1.png';
+import img1 from '../../assets/img/1.png';
+import img2 from '../../assets/img/2.png';
+import img3 from '../../assets/img/3.png';
 import Dalle from '../../assets/img/Dalle.jpeg'
 export const Projects = () => {
   return (
@@ -30,7 +32,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={img}
+                    src={img1}
                     alt=''
                   />
                 </div>
@@ -143,7 +145,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href=""
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -161,7 +163,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src={img2}
                     alt=""
                   />
                 </div>
@@ -178,7 +180,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="https://polite-profiterole-07fa70.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -187,7 +189,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href=""
+                    href="https://github.com/inbuilt-aura/Portfolio-vite"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -199,42 +201,41 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+           </div>
+           </div>
+
+           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
+                    src={img3}
+                    alt=""
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
+                <h2>Portfolio-vite</h2>
                 <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
+                  A simple operational portfolio-site using vite
                 </p>
                 <div>
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
-                  <SiHtml5 />
-                  <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://portfolio1-two-kappa.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      See this Live
+                      See it Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://github.com/inbuilt-aura/my-portfolio.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -246,53 +247,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>PulsePlus Clone</h2>
-                <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </>
   );
 };

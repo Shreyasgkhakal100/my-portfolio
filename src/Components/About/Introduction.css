@@ -18,10 +18,11 @@
 .introduction_logocontainer > img {
   /* width: 65%;
   height: 70%; */
-  width:70%;
-  height:85%;
-  border-radius: 50%;
-  border: 2px solid var(--clr-primary);
+  width: 65%;
+  height: 80%;
+  border-radius: 80%;  
+  border-radius: 45px;
+  border: 3px solid  var(--clr-primary);
   background-color:yellow;
 }
 
