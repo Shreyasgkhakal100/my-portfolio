@@ -139,7 +139,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Sept. 202 - Present"}
+            date={"Sept. 2020 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
