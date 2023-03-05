@@ -51,8 +51,8 @@
   color: var(--clr-fg-alt);
   margin-right: 0.5em;
 }
-
-@media (max-width: 1022px) {
+ 
+@media (max-width: 600px) {
   .introduction {
     flex-direction: column;
     margin-top: 2em;
@@ -62,7 +62,7 @@
     flex-basis: 20%;
   }
   .introduction_logocontainer > img {
-    width: 45%;
+    width: 50%;
     height: 85%;
     border-radius: 80%;  
     border-radius: 45px;
