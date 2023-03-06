@@ -2,6 +2,13 @@
   flex-direction: column;
   margin-top: 3em;
 }
+.mobileHead{
+  align-items:center;
+  justify-content:center;
+padding:20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 .about__name {
   color: var(--clr-primary);
 }
