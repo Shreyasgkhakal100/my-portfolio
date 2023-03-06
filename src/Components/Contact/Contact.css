@@ -82,7 +82,7 @@
 }
 @media (max-width: 670px) {
   .contactcontainer svg {
-    font-size: 2em;
+    font-size: 3em;
   }
   .contactcontainer{
     width: 100%;
@@ -101,12 +101,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 4px;
   }
   .iconsCont{
     width: 90%
   }
   .contactcontainer svg:hover {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
