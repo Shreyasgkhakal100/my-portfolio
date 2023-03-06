@@ -37,7 +37,7 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              textAlign: "left",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{
@@ -108,7 +108,7 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
               backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
+              textAlign: "left",
               color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{

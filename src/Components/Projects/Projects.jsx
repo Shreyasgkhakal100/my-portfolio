@@ -215,9 +215,9 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Portfolio-vite</h2>
+                <h2>Main Portfolio</h2>
                 <p>
-                  A simple operational portfolio-site using vite
+                 My original portfolio build on pure react and css.Conatins all the details and info. at one place.
                 </p>
                 <div>
                   <SiNodedotjs />
