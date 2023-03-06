@@ -54,7 +54,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 @media (max-width: 600px) {
   .mobileHead{
     align-content: center;
-    font-size:2.3rem;
+    font-size:2.6rem;
     align-items:center;
     justify-content:center;
   
