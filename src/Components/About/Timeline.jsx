@@ -63,7 +63,7 @@ export const Timeline = () => {
             KIPM-COLLEGE OF ENGINEERING AND TECHNOLOGY
             </h4>
             <p data-aos="fade-right">
-             Joined with E-cell IIT-BOMBAY's program NEC to participate in Asia's largest entrepreneurial program and came at 6th pposition in Asia.
+             Joined with E-cell IIT-BOMBAY's program NEC to participate in Asia's largest entrepreneurial program and came at 6th position in Asia.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

@@ -125,7 +125,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>APIJS Mongo</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
+                  APIJS Mongo is an open source library which helps you to
                   create backend API's in Node.js just by using simple methods
                   like connectToMongoDB() & createUserAPI().
                 </p>
@@ -217,7 +217,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Main Portfolio</h2>
                 <p>
-                 My original portfolio build on pure react and css.Conatins all the details and info. at one place.
+                 My original portfolio build on pure react and css.Contains all the details and info. at one place.
                 </p>
                 <div>
                   <SiNodedotjs />
