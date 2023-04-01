@@ -7,16 +7,15 @@ import {
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
-
 export const Techstacks = () => {
   return (
     <>
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
-          <div>
+           <div>
             <SiJavascript />
-            <h5>Javascript</h5>
+             <h5>Javascript</h5>
           </div>
           <div>
             <SiHtml5 />

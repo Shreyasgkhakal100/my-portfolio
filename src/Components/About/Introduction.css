@@ -18,10 +18,10 @@
 .introduction_logocontainer > img {
   /* width: 65%;
   height: 70%; */
-  width: 60%;
-  height: 85%;
-  border-radius: 80%;  
-  border-radius: 45px;
+  width: 65%;
+  height: 100%;
+  border-radius: 70%;  
+  border-radius: 40px;
   border: 3px solid  var(--clr-primary);
   background-color:yellow;
 }
@@ -62,12 +62,36 @@
     flex-basis: 20%;
   }
   .introduction_logocontainer > img {
-    width: 50%;
-    height: 85%;
+    width: 60%;
+    height: 80%;
     border-radius: 80%;  
     border-radius: 45px;
     border: 3px solid  var(--clr-primary);
     background-color:yellow;
+  }
+  .introduction_datacontainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-basis: 70%;
+  }
+}
+@media (max-width: 900px) {
+  .introduction {
+    flex-direction: column;
+    margin-top: 2em;
+  }
+  .introduction_logocontainer {
+    margin-bottom: 3em;
+    flex-basis: 20%;
+  }
+  .introduction_logocontainer > img {
+    width: 40%;
+    height: 60%;
+    border-radius: 70%;  
+    border-radius: 45px;
+    border: 3px solid  var(--clr-primary);
+    background-color:yellow;
+    position:relative;
   }
   .introduction_datacontainer {
     padding-left: 10%;
