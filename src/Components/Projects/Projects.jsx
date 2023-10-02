@@ -14,8 +14,15 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiReact,
+  SiCss3,
+  SiJava,
+  SiSpringboot,
+  SiAngular,
+  SiFigma,
+  SiC,
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiDocker } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
@@ -28,29 +35,32 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://i.ibb.co/V9C8Jm9/rockstar-games.png"
+                  {/* <img
+                    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fchat-app-logo-sms-messenger-label-design-mobile-app-online-conversation-with-texting-message-ui-design-concept-vector-illustration_33293719.htm&psig=AOvVaw3GnaV-yInPg96KnDXOGn99&ust=1696353947814000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDeqIbx14EDFQAAAAAdAAAAABAE"
                     alt="Rockstar Games"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="project_information">
-                <h2>Rockstar Games</h2>
+                <h2>CHAT APP</h2>
                 <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                Provided users with a robust range of features for enriched live chats for 100+ users.
+Facilitated seamless sharing of text messages, fostering real-time conversations 40% high
+response rates.
+Empowered users with instant message exchange, resulting in a 50% increase in interaction
+efficiency.
+Tested With 50+ Users at a time Worked efficiently..
                 </p>
                 <div>
                   <SiNodedotjs />
                   <SiExpress />
-                  <SiMongodb />
-                  <FaReact />
+                  <SiHtml5 />
+                  <SiSocketdotio />
                   <SiMaterialui />
                 </div>
                 <div>
                   <a
-                    href="https://store-rockstargames.vercel.app/"
+                    href="https://alphaz.onrender.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +69,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/aman-638/store.rockstartgames.com-Frontend-Clone"
+                    href="https://github.com/harshith2410/CHATAPP"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -75,27 +85,32 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
+                  {/* <img
                     src="https://i.ibb.co/MPzWN49/weather-app.png"
                     alt="Sk-Weather-App"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>KEEP NOTES</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                Can add as many notes as needed to keep track of your tasks and ideas.
+For example, you might have 10 notes for work-related tasks, 5 for personal reminders, and 3 for
+shopping lists.
+You can add as many notes as needed to keep track of your tasks and ideas.
+For example, you might have 10 notes for work-related tasks, 5 for personal reminders, and 3 for
+shopping lists.
+
+
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
+                  <SiReact />
+                  <SiCss3 />
+                
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://keep-notes-lilac.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -104,7 +119,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://keep-notes-lilac.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -120,32 +135,37 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  {/* <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" /> */}
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
+                <h2>CAMPUS CONNECT</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                Expertly executed full-stack development, orchestrating the integration of 4 technologies to
+achieve seamless end-to-end functionality
+Successfully Empowered administrators to perform CRUD operations on student records,
+reducing data entry time by 30%.
+Integrated MongoDB for efficient database storage, resulting in a 25% improvement in data
+retrieval speed.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
+                  <SiJava />
+                  <SiSpringboot />
+                  <SiAngular/>
+                  <DiDocker/>
                   <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://github.com/harshith2410/REST-API-AND-ANGULAR-UI-ITEGARTION"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      View GitHub link
                     </span>
                   </a>
-                  <a
+                  {/* <a
                     href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
                     target="_blank"
                     rel="noreferrer"
@@ -153,7 +173,7 @@ export const Projects = () => {
                     <span type="button" className="btns onbt">
                       View Code
                     </span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -163,25 +183,24 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
-                  />
+                  
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>CARPOOLING-BUSINESS MODEL</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                Conceptualized and designed a user-centric carpooling mobile app using Flutter and Firebase,
+showcasing expertise in modern app development frameworks.
+Engineered real-time ride matching algorithms, resulting in a 40% reduction in travel costs and a
+30% decrease in carbon emissions.
+
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiFigma />
+                  {/* <SiExpress />
+                  <SiMongodb /> */}
                 </div>
-                <div>
+                {/* <div>
                   <a
                     href="https://drive-system.herokuapp.com/user/"
                     target="_blank"
@@ -200,7 +219,7 @@ export const Projects = () => {
                       View Code
                     </span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -208,28 +227,23 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
-                  />
+                
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
+                <h2>AES ALGORITHM</h2>
                 <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
+                The AES (Advanced Encryption Standard) algorithm is a widely used symmetric encryption method. It employs a block cipher to secure data and is known for its strong encryption capabilities. AES operates on fixed-size blocks of data, typically 128 bits, and uses a varying key length of 128, 192, or 256 bits. Its strength lies in its complex substitution-permutation network, making it a robust choice for safeguarding sensitive information in various applications, including data transmission and storage.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
+                  <SiC />
+                  {/* <SiExpress />
                   <SiMongodb />
                   <SiHtml5 />
-                  <DiCss3 />
+                  <DiCss3 /> */}
                 </div>
                 <div>
-                  <a
+                  {/* <a
                     href="https://uniqlo-clone.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -237,53 +251,9 @@ export const Projects = () => {
                     <span type="button" className="btns onbt onbt">
                       See this Live
                     </span>
-                  </a>
+                  </a> */}
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>PulsePlus Clone</h2>
-                <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
+                    href="https://github.com/harshith2410/AES-ALGORITHM-IMPLEMENTATION"
                     target="_blank"
                     rel="noreferrer"
                   >

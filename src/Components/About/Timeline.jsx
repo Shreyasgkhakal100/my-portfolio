@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Dec 2021 - Feb 2022"}
+            date={"June 2022 -Present "}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,21 +54,20 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide Cordinator
+              Placement Coordinator
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+             Coimbatore Institute of Technology
             </h4>
             <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
+            As a Student Placement Coordinator, I am playing a pivotal role in bridging the gap between students and prospective employers. My responsibilities included organizing career fairs, facilitating workshops, and connecting students with valuable internship and job opportunities. I am proud to have contributed to the successful career journeys of numerous students, making a positive impact on their professional futures.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Dec 2021"}
+            date={"Dec 2022 - Mar 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,23 +89,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide
+              Vice chairman -MELINIA 2K23 (National level Technical Symposium)
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              Coimbatore Institute Of Techonology
             </h4>
             <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
+              
+The Vice Chairman of a national-level technical symposium is a key leadership role responsible for assisting in the planning, coordination, and execution of the event. They oversee various committees, manage budgets, seek sponsorship, coordinate logistics, and ensure the success of the symposium by collaborating with a team of organizers.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"Jul 2022 - Nov2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -128,22 +125,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+             Product Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Smartail Pvt ltd
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
+            In my role as a web developer in Chennai, India, I designed and implemented a responsive and user-friendly UI using Angular. I integrated the Java Spring framework to establish seamless communication between the website and the database, ensuring efficient data processing. My collaborative efforts with the team resulted in the successful delivery of a fully functional application within the specified timeframe
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
+            date={"Mar 2020 - Mar2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -165,23 +161,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Co-founder
+              Public Relations
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Agricultural Training institute, Ahmednagar
+             GirlsScript Community
             </h4>
             <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
+            The Girls Script PR team is pivotal in shaping a positive image for the community. We managed communication, foster engagement, and promote events, ensuring a strong online and offline presence. Additionally, we handle crisis management and seek partnerships to amplify the community's impact, all while advocating for women in tech.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
+            date={"Jun 2020 - May 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -203,22 +197,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Founder & Director (Part Time)
+            FootBall @Sports club
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
+             Coimbatore Institute of Technology
             </h4>
             <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
+            I played college football at CIT College, showcasing my dedication and teamwork on the field while contributing to the team's success.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2017 - Aug 2021"}
+            date={"May2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -240,23 +233,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [BTech. (Agril. Engineering)]
+             Hackathon Runners-Up
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              CAET, VNMKV University, Parbhani (MH)
+             Melinia 2022
             </h4>
             <p data-aos="fade-right">
-              Studied Agricultural Engineering which consists of all the
-              subjects accross all engineering and agricultural streams. Passed
-              with 8.32 CGPA
+            Secured the Runner-Up position in a hackathon by presenting our innovative carpooling app concept. Our user-centric design, real-time algorithms, and push notification system significantly reduced travel costs, carbon emissions, and boosted user engagement, showcasing the potential for sustainable and efficient transportation solutions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"March 2017"}
+            date={"Aug 2019-2024"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -278,16 +269,16 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [HSC (Science)]
+              Student [MSC (Software systems)]
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Janata Jr. College, Ruichhattishi, Ahmednagar
+             Coimbatore Institute of technology,COIMBATORE
             </h4>
             <p data-aos="fade-right">
-              Studied 12th Science and Passed with 85.69 Percentage.
+            My CGPA 8.37 reflects my consistent commitment to academic excellence, showcasing my strong foundation of knowledge and dedication to continuous learning.
             </p>
           </VerticalTimelineElement>
 

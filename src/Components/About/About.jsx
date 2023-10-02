@@ -17,18 +17,18 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Shreyas Khakal</span>
+          Hello, I am <span className="about__name">HARSHITH S</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+        Passionate learner with a strong desire to apply and expand my engineering skills in an environment
+that fosters growth, Seeking a challenging and rewarding opportunity with an organization of repute
+which recognizes my true potential and effectively utilizes my excellent analytical and technical skills in
+IT industry.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Shreyasgkhakal100"
+            href="https://github.com/harshith2410"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +37,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="mailto:harshithharshith347@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -46,7 +46,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+918668613593"
+            href="tel:+916381478010"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -55,7 +55,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/harshith-s-5493a521a/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -63,22 +63,13 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
         </div>
 
         <button
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
+              "https://drive.google.com/file/d/1OuScDiamOo4PDfyhhijHVMoszgRlX7vR/view?usp=sharing"
             );
           }}
         >

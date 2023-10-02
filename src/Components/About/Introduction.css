@@ -16,8 +16,8 @@
 }
 
 .introduction_logocontainer > img {
-  width: 55%;
-  height: 85%;
+  width: 70%;
+  height: 80%;
   border-radius: 50%;
   border: 2px solid var(--clr-primary);
 }
