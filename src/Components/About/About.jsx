@@ -28,7 +28,7 @@ IT industry.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/harshith2410"
+            href="https://www.linkedin.com/in/harshith-s-5493a521a/"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -69,7 +69,7 @@ IT industry.
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1AXNLhMt7hQ8o7HkfxriJ-ypHrdopxC9Q/view?usp=sharing"
+              "https://drive.google.com/file/d/1yE635L_8C-pUZbstN3h4Wj0RQWUXTcbe/view?usp=drive_link"
             );
           }}
         >
