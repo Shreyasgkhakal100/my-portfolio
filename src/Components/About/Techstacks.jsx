@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws, FaDocker, FaAngular, FaGitlab } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
@@ -8,10 +8,14 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiSpringboot,
+  SiD3Dotjs,
+  SiPostman,
+  SiMysql
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
+import { SiJavascript, SiHeroku, SiJava } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
 
@@ -42,26 +46,52 @@ export const Techstacks = () => {
             <h5>Nodejs</h5>
           </div>
           <div>
+            <FaDocker />
+            <h5>Docker</h5>
+          </div>
+          <div>
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
 
           <div>
-            <SiExpress />
-            <h5>Express</h5>
+            <SiJava />
+            <h5>Java</h5>
           </div>
 
           <div>
-            <FaAws />
-            <h5>AWS</h5>
+            <SiSpringboot />
+            <h5>Spring boot</h5>
           </div>
+
+          <div>
+            <SiD3Dotjs />
+            <h5>D3 JS</h5>
+          </div>
+          <div>
+            <SiPostman />
+            <h5>PostMan</h5>
+          </div>
+          <div>
+            <FaAngular />
+            <h5>Angular</h5>
+          </div>
+          <div>
+            <FaGitlab />
+            <h5>Git lab</h5>
+          </div>
+          <div>
+            <SiMysql />
+            <h5>SQL</h5>
+          </div>
+
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
           <div>
             <BsWordpress />
-            <h5>Wordpress</h5>
+            <h5>D3 JS</h5>
           </div>
           <div>
             <SiHeroku />

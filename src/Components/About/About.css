@@ -5,6 +5,7 @@
 .about__name {
   color: var(--clr-primary);
 }
+
 .about > :nth-child(2) {
   margin-top: 1.2em;
   font-size: 2rem;
