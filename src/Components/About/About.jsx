@@ -69,7 +69,7 @@ IT industry.
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1OuScDiamOo4PDfyhhijHVMoszgRlX7vR/view?usp=sharing"
+              "https://drive.google.com/file/d/1AXNLhMt7hQ8o7HkfxriJ-ypHrdopxC9Q/view?usp=sharing"
             );
           }}
         >
